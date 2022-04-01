@@ -9,7 +9,6 @@ Welcome to see891's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Table of Contents
-   
    extrapage
 
 This is a sample SEE 891 Read the Docs Page
@@ -23,10 +22,3 @@ Other Notes
 -----------------
 .. note::
    You can include warning and note boxes for example 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
