@@ -10,9 +10,9 @@ GitHub pages are static websites that can be linked to any GitHub project or org
 
 ### Other Notes
 
-```markdown
-GitHub Pages can support markdown code block 
+```python
+#GitHub Pages can support syntax highlighted code blocks 
 
-## Example
-
-Markdonw block example
+for item in ['hero', 'god']:
+  print(f'Trevor is a {item}')
+```
