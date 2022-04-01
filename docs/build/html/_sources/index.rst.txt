@@ -24,3 +24,9 @@ Other Notes
 .. note::
    You can include warning and note boxes for example 
 
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
