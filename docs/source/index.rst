@@ -8,7 +8,9 @@ Welcome to see891's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents
+   
+   extrapage
 
 This is a sample SEE 891 Read the Docs Page
 
