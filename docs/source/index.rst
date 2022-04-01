@@ -10,11 +10,15 @@ Welcome to see891's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+This is a sample SEE 891 Read the Docs Page
+
+Purpose
+-----------------
+Read the docs allows for visual flexibility in project documentation
 
 
-Indices and tables
-==================
+Other Notes
+-----------------
+.. note::
+   You can include warning and note boxes for example 
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
