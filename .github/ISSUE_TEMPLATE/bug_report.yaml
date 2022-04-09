@@ -15,9 +15,9 @@ body:
 - type: checkboxes
   attributes:
     label: Conda environment check
-    description: See install instructions for how to install the osemosys-global conda environment.
+    description: See install instructions for how to install conda environment.
     options:
-    - label: I have tried using the `osemosys-global` conda environment. 
+    - label: I have tried using the supplied conda environment. 
       required: false
 
 - type: textarea
