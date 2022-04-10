@@ -5,7 +5,7 @@ from example_package.example import add_five
 
 
 def test_add_one():
-    assert add_one(8) == 9
+  assert add_one(8) == 9
 
 def test_add_five():
-    assert add_five(-10) == -5
+  assert add_five(-10) == -5
