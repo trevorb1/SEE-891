@@ -24,3 +24,5 @@ jobs:
 
     - name: Test with pytest
       uses: cclauss/GitHub-Action-for-pytest@master
+      with:
+        args: pytest -h
