@@ -32,3 +32,11 @@ jobs:
         
     - name: Build package
       run: python -m build        
+
+    - name: Lint with pyLint
+      uses: github/super-linter/slim@v4
+      env:
+        DEFAULT_BRANCH: main
+        PYTHON_PYLINT_CONFIG_FILE: .pylintrc
+        VALIDATE_PYTHON_PYLINT: true
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
