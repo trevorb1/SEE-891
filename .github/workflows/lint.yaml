@@ -1,4 +1,4 @@
-name: Pylint
+name: Lint and Test
 
 on: 
     push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Lint Code
+    name: Lint and Test
     runs-on: ubuntu-latest
     
     steps:
@@ -21,3 +21,6 @@ jobs:
         PYTHON_PYLINT_CONFIG_FILE: .pylintrc
         VALIDATE_PYTHON_PYLINT: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Test with pytest
+      uses: cclauss/GitHub-Action-for-pytest@master
