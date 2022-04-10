@@ -1,0 +1,23 @@
+name: Pylint
+
+on: 
+    push:
+    pull_request:
+      branches: main
+
+jobs:
+  build:
+    name: Lint Code
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Lint code
+      uses: github/super-linter/slim@v4
+      env:
+        DEFAULT_BRANCH: main
+        PYTHON_PYLINT_CONFIG_FILE: .pylintrc
+        VALIDATE_PYTHON_PYLINT: true
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
